@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Public+Sans&display=swap");
 *{
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    margin: 20;
+    padding: 20;
 }
 
 body {
