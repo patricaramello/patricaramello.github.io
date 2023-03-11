@@ -11,6 +11,10 @@ body {
     font-size: 1.2rem
 }
 
+.p {
+    line-height:200%;
+}
+
 .contenedor > * {
     box-shadow: -1px 1px 7px 0px rgba(0,0,0,0.75);
     border-radius: 4px;
@@ -26,7 +30,7 @@ body {
     "header header"
     "sidebar main"
     "footer footer";
-    grid-template-columns: 300px auto;
+    grid-template-columns: 200px auto;
 }
 
 .header {
@@ -60,13 +64,17 @@ body {
     background-color: #9494b8
 }
 
-#presentacion {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-  
-  #presentacion > div {
-    width: 50%;
+.presentacion {
+    text-align: center;
+    background-color: #fad3ac;
     padding: 50px;
-  }
+}
+
+.lista-int {
+    text-align: center;
+}
+
+.lista-int2 {
+    display: flex;
+   
+}
